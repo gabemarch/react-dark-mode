@@ -1,0 +1,72 @@
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.tooth-image {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  display: block;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  margin: -15px;
+}
+
+.semi-circle {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.semi-circle:before {
+  position: absolute;
+}
+
+.one {
+  transform: rotate(10deg) translate(130px);
+}
+.two {
+  transform: rotate(-15deg) translate(130px);
+}
+.three {
+  transform: rotate(-35deg) translate(130px);
+}
+.four {
+  transform: rotate(-55deg) translate(130px);
+}
+.five {
+  transform: rotate(-75deg) translate(130px);
+}
+.six {
+  transform: rotate(-95deg) translate(130px);
+}
+.seven {
+  transform: rotate(-115deg) translate(130px);
+}
+.eight {
+  transform: rotate(-135deg) translate(130px);
+}
+.nine {
+  transform: rotate(-160deg) translate(130px);
+}
+.ten {
+  transform: rotate(-185deg) translate(130px);
+}
